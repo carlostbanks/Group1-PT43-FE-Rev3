@@ -1,27 +1,14 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-
 import Navbar from './components/navbar';
-// import Header from '/components/header';
 import Footer from './components/footer';
-
 import AboutUs from './views/aboutUs';
-// import Dashboard from './views/dashboard';
-// import FavoriteJobs from './views/favoritejobs';
 import Home from './views/home';
 import Jobs from './views/jobs';
 import Landing from './views/landing';
 import Login from './views/login';
-// import Modal from './views/modal';
 import Register from './views/register';
-
-
-
-
-
-
 
 
 function App() {
@@ -42,7 +29,7 @@ function App() {
 
         </Routes>
       <Footer />
-      </BrowserRouter>
+    </BrowserRouter>
 
 
     </div>
